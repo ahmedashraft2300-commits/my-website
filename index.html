@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خطة إدارة العملاء والتسويق الإلكتروني</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .section-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .step-number {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        .timeline-item {
+            border-right: 3px solid #667eea;
+            padding-right: 20px;
+            position: relative;
+        }
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            right: -8px;
+            top: 0;
+            width: 14px;
+            height: 14px;
+            background: #667eea;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- شريط التنقل -->
+    <nav class="gradient-bg text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <h1 class="text-xl font-bold">خطة إدارة العملاء والتسويق الإلكتروني</h1>
+                <div class="hidden md:flex space-x-6 space-x-reverse">
+                    <a href="#onboarding" class="hover:text-gray-200 transition">استقبال العملاء</a>
+                    <a href="#planning" class="hover:text-gray-200 transition">التخطيط</a>
+                    <a href="#execution" class="hover:text-gray-200 transition">التنفيذ</a>
+                    <a href="#tools" class="hover:text-gray-200 transition">الأدوات</a>
+                    <a href="#timeline" class="hover:text-gray-200 transition">الجدول الزمني</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- الهيرو -->
+    <header class="gradient-bg text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">خطة تنظيمية شاملة لإدارة العملاء والتسويق الإلكتروني</h2>
+            <p class="text-xl mb-8">دليل عملي محترف لإدارة الحملات والتواصل مع الفريق وتحقيق النتائج</p>
+            <a href="#onboarding" class="bg-white text-purple-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                ابدأ الرحلة
+            </a>
+        </div>
+    </header>
+
+    <!-- المحتوى الرئيسي -->
+    <main class="container mx-auto px-4 py-16">
+        <!-- مرحلة استقبال العملاء -->
+        <section id="onboarding" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12 text-purple-700">
+                <i class="fas fa-users mr-2"></i>
+                المرحلة الأولى: استقبال العميل وبداية التعاون
+            </h2>
+            
+            <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- استقبال العميل -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="step-number">1</div>
+                        <h3 class="text-xl font-semibold">استقبال العميل والتعريف</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            عقد اجتماع تعريفي (Kickoff Meeting) مع العميل
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            فهم أهداف العميل وتوقعاته والجمهور المستهدف
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            جمع المعلومات الأساسية والبيانات اللازمة
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- العقود والاتفاقيات -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="step-number">2</div>
+                        <h3 class="text-xl font-semibold">توقيع العقود والاتفاقيات</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-file-contract text-blue-500 mt-1 mr-2"></i>
+                            مراجعة وتوقيع العقود الرسمية
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-file-contract text-blue-500 mt-1 mr-2"></i>
+                            توضيح شروط العمل ومواعيد التسليم
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-file-contract text-blue-500 mt-1 mr-2"></i>
+                            تحديد آليات الدفع والالتزامات المتبادلة
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- إعداد الحسابات -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="step-number">3</div>
+                        <h3 class="text-xl font-semibold">إعداد حسابات العميل</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-cogs text-yellow-500 mt-1 mr-2"></i>
+                            إنشاء أو طلب صلاحيات الوصول للحسابات
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-cogs text-yellow-500 mt-1 mr-2"></i>
+                            Google Analytics, Google Ads, Facebook Business Manager
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-cogs text-yellow-500 mt-1 mr-2"></i>
+                            توثيق بيانات الدخول بشكل آمن
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- تخزين البيانات -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="step-number">4</div>
+                        <h3 class="text-xl font-semibold">تخزين البيانات وإدارتها</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-database text-purple-500 mt-1 mr-2"></i>
+                            استخدام Google Drive أو OneDrive لتنظيم الملفات
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-database text-purple-500 mt-1 mr-2"></i>
+                            إنشاء مجلدات منظمة للعقود والتقارير والمحتوى
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-database text-purple-500 mt-1 mr-2"></i>
+                            استخدام CRM لتسجيل التواصل والملاحظات
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- مرحلة التخطيط -->
+        <section id="planning" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12 text-purple-700">
+                <i class="fas fa-project-diagram mr-2"></i>
+                المرحلة الثانية: التخطيط والتنظيم
+            </h2>
+
+            <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- تحليل السوق -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">
+                        <i class="fas fa-chart-line mr-2"></i>
+                        تحليل السوق والمنافسين
+                    </h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>استخدام SEMrush وAhrefs لتحليل المنافسين</li>
+                        <li>دراسة الجمهور المستهدف باستخدام Google Analytics</li>
+                        <li>تحليل نقاط القوة والضعف في السوق</li>
+                    </ul>
+                </div>
+
+                <!-- الأهداف -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4 text-green-600">
+                        <i class="fas fa-bullseye mr-2"></i>
+                        تحديد الأهداف الذكية (SMART)
+                    </h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>أهداف محددة وقابلة للقياس</li>
+                        <li>قابلة للتحقيق وذات صلة بالأعمال</li>
+                        <li>محددة زمنياً مع مواعيد نهائية واضحة</li>
+                    </ul>
+                </div>
+
+                <!-- مؤشرات الأداء -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4 text-red-600">
+                        <i class="fas fa-chart-bar mr-2"></i>
+                        مؤشرات الأداء الرئيسية (KPIs)
+                    </h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>عدد الزيارات ومعدلات التحويل</li>
+                        <li>تكلفة الاكتساب والعائد على الاستثمار</li>
+                        <li>معدل الاحتفاظ بالعملاء والرضا العام</li>
+                    </ul>
+                </div>
+
+                <!-- توزيع المهام -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4 text-yellow-600">
+                        <i class="fas fa-tasks mr-2"></i>
+                        توزيع المهام وإدارة الفريق
+                    </h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>إنشاء جدول زمني للمشروع</li>
+                        <li>تحديد مسؤوليات كل عضو في الفريق</li>
+                        <li>استخدام Trello أو Asana لمتابعة المهام</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- مرحلة التنفيذ -->
+        <section id="execution" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12 text-purple-700">
+                <i class="fas fa-cogs mr-2"></i>
+                المرحلة الثالثة: التنفيذ والمتابعة
+            </h2>
+
+            <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- التواصل مع الفريق -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">
+                        <i class="fas fa-comments mr-2"></i>
+                        التواصل مع الفريق
+                    </h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-center">
+                            <i class="fas fa-slack text-purple-500 mr-2"></i>
+                            Slack للدردشة الفورية
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-video text-blue-500 mr-2"></i>
+                            Zoom للاجتماعات الأسبوعية
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-sticky-note text-green-500 mr-2"></i>
+                            توثيق محاضر الاجتماعات
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- متابعة الحملات -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4 text-green-600">
+                        <i class="fas fa-chart-pie mr-2"></i>
+                        متابعة وتحليل الحملات
+                    </h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-center">
+                            <i class="fas fa-google text-blue-400 mr-2"></i>
+                            Google Analytics للمراقبة اليومية
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-facebook text-blue-600 mr-2"></i>
+                            Facebook Insights لتحليل الأداء
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-sliders-h text-yellow-500 mr-2"></i>
+                            إجراء اختبارات A/B للتحسين
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- التقارير -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4 text-red-600">
+                        <i class="fas fa-file-alt mr-2"></i>
+                        التقارير والتقييم
+                    </h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>تقارير أسبوعية: ملخص الأداء والتغييرات</li>
+                        <li>تقارير شهرية: تحليل مفصل مع رسوم بيانية</li>
+                        <li>تقارير ربع سنوية: تقييم شامل وخطط مستقبلية</li>
+                    </ul>
+                </div>
+
+                <!-- التحسين المستمر -->
+                <div class="section-card bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-600">
+                        <i class="fas fa-sync-alt mr-2"></i>
+                        التحسين المستمر
+                    </h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>تدريب الفريق على الأدوات الجديدة</li>
+                        <li>مراجعة العمليات الداخلية بانتظام</li>
+                        <li>تبسيط الإجراءات وتقليل العقبات</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- الأدوات -->
+        <section id="tools" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12 text-purple-700">
+                <i class="fas fa-tools mr-2"></i>
+                الأدوات والمنصات المستخدمة
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-xl shadow-md p-6 text-center">
+                    <i class="fas fa-cloud text-blue-500 text-4xl mb-3"></i>
+                    <h4 class="font-semibold mb-2">التخزين </h4>
+                    <p class="text-gray-600">Google Drive<br>OneDrive</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md p-6 text-center">
+                    <i class="fas fa-users-cog text-green-500 text-4xl mb-3"></i>
+                    <h4 class="font-semibold mb-2">إ
